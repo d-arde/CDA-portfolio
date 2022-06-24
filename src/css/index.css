@@ -1,0 +1,38 @@
+* {
+  font-family: "Lucida Console", monospace;
+  background-color: rgb(28, 28, 27);
+  color: white;
+}
+
+.navBar {
+  list-style-type: none;
+  padding-left: 0.5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  width: 45%;
+  display: inline-block;
+}
+
+.navBarItem {
+  margin-right: 10%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(204, 104, 69);
+}
+
+.introDiv {
+  color: gainsboro;
+  text-align: left;
+  font-weight: lighter;
+  padding-left: 1%;
+}
+
+.mainText {
+  font-size: 180%;
+}
+
+#infoSection {
+  background-color: rgb(104, 104, 104);
+}
