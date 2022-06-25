@@ -27,7 +27,8 @@ h1 {
 }
 
 a:hover {
-  color: rgb(204, 104, 69);
+  color: rgb(101, 140, 239);
+  cursor: pointer;
 }
 
 .introDiv {
