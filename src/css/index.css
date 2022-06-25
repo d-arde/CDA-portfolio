@@ -42,8 +42,12 @@ a:hover {
   font-size: 180%;
 }
 
-#infoSection {
-  /* to do for later */
+.langs {
+  border-top: 2px solid gainsboro;
+}
+
+ul.langs {
+  list-style-type: square;
 }
 
 .projectH1 {
