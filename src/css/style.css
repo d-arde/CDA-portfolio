@@ -73,10 +73,11 @@ header h1 {
 
 .cd-image-label {
   position: absolute;
-  font-size: smaller;
+  font-size: medium;
   bottom: 0;
   right: 0;
-  color: #dc717d;
+  /* color: #dc717d; */
+  color: #000;
   padding: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
