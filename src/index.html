@@ -7,21 +7,33 @@
     <title>Constantin Danut Ardeleanu</title>
   </head>
 
+  <script>
+    function showSection() {
+      var x = document.getElementById("infoSection");
+      if (x.style.display == "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
   <body>
     <nav class="navBar">
-      <a class="navBarItem" href="#">Home</a>
+      <a class="navBarItem" href="index.html">Home</a>
       <a class="navBarItem" href="#">About Me</a>
       <a class="navBarItem" href="#">Projects</a>
       <a class="navBarItem" href="#">Contact</a>
     </nav>
     <div class="introDiv">
       <h3>I'm Dani.</h3>
-      <h1 class="mainText">Aspiring Software Engineer and current student.</h1>
-      <p>I am a London based student devling into the world of tech.</p>
-      <section id="link">
-        <a onclick="myFun">Click here to learn a bit more</a>
+      <h1 class="mainText">Aspiring Software Engineer</h1>
+      <p>I am a London based student delving into the world of tech.</p>
+      <section>
+        <a onclick="showSection()">Click here to learn a bit more</a>
       </section>
-      <section id="infoSection">
+      <div id = "infoSection" style="display: none">
+      <section>
         <p>
           I was born in Romania and moved to London as a child and lived my
           childhood here I was always a fan of video games, so that incentivised
@@ -30,6 +42,39 @@
           for GCSE and stuck to it, because I enjoyed it and it was fun.
         </p>
       </section>
+      <br>
+    </div>
+    <h1 class="projectH1">What I have done</h1>
+    <br>
+    <div class="card">
+      <h1>PetFriends!</h1>
+      <p>This was a small web application built to connect pet owners with pet minders, providing
+        pets with with care while the owner may not be able to provide. Built with a group of 5.
+      </p>
+      <br>
+      <a href="https://github.com/d-arde/petFriends">Github</a>
+      <img src="" alt="">
+    </div>
+      <br>
+    <div class="card">
+      <h1>Discord.js Solana TPS Tracker</h1>
+      <p>As a hobby I do NFTs, to help the community, which is active mostly
+        on Discord. I decided to make a discord bot that calculates the average
+        transactions per second (TPS) of the most recent block on the Solana Blockchain, the chain I trade NFTs on.
+        This bot is publicly available by a given discord link. It is currently being used by servers with 1k+ people.
+      </p>
+      <img src="img/solanaBot.png" alt="" style="width: 20%; height: 20%; margin: 0 10% 0 7%">
+      <img src="img/herokuLogs.png" alt="" style="width: 50%; height: 50%; margin-bottom: 7%;">
+      <br>
+      <span>The picture on the left shows it is working by its status showing the TPS, the picture on the right is the logs of the bot;
+        displaying the current TPS.
+      </span>
+      <br>
+      <br>
+      <br>
+      <a href="https://github.com/d-arde/solanaTPS">Github</a>
+      <a href="https://discord.com/oauth2/authorize?client_id=976035158866145280&scope=bot&permissions=335544320">Bot Link</a>
+      
     </div>
   </body>
 </html>
