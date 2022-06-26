@@ -23,13 +23,13 @@
   <body>
     <nav class="navBar">
       <a class="navBarItem" href="index.html">Home</a>
-      <a class="navBarItem" href="#">About Me</a>
-      <a class="navBarItem" href="#">Projects</a>
-      <a class="navBarItem" href="#">Contact</a>
+      <a class="navBarItem" href="#about">About Me</a>
+      <a class="navBarItem" href="#projs">Projects</a>
+      <a class="navBarItem" href="#contact">Contact</a>
     </nav>
     <div class="introDiv">
       <h3>I'm Dani.</h3>
-      <h1 class="mainText">Aspiring Software Engineer</h1>
+      <h1 class="mainText" id="about">Aspiring Software Engineer</h1>
       <p>I am a London based student delving into the world of tech.</p>
       <figure class="cd-image-container">
         <img src="img/bear4683.png" alt="" style="width: auto; height: auto;">
@@ -44,7 +44,7 @@
       </figure> <!-- cd-image-container -->
 
       <section>
-        <a onclick="showSection()">Click here to learn a bit more</a>
+        <a onclick="showSection()">Click here to learn more about my background and skills</a>
       </section>
       <div id = "infoSection" style="display: none">
       <section>
@@ -72,7 +72,7 @@
       </section>
       <br>
     </div>
-    <h1 class="projectH1">Projects I have done</h1>
+    <h1 class="projectH1" id="projs">Projects I have done</h1>
     <br>
     <div class="card">
       <h1>PetFriends!</h1>
@@ -112,6 +112,14 @@
       <a href="">Github</a>
       <img src="" alt="">
     </div>
+    <div class="contacts" id="contact">
+      <h1>Contact</h1>
+      <a href="http://github.com/d-arde"><img src="img/git.png" alt="" style="width: 4%; margin-left: 1em;"></a>
+      <a href="https://www.linkedin.com/in/constantin-danut-ardeleanu-2029831b6/"><img src="img/linkedin.png" alt="" style="width: 4%; margin-left: 0.5em;"></a>
+      <a href=""><img src="img/resume.png" alt="" style="width: 4%;"></a>
+    </div>
+    <br>
+    <br>
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
     <script src="js/main.js"></script> <!-- Resource jQuery -->
