@@ -14,6 +14,7 @@
       var x = document.getElementById("infoSection");
       if (x.style.display == "none") {
         x.style.display = "block";
+        x.style.animation= "fadeIn 2s";
       } else {
         x.style.display = "none";
       }
@@ -27,7 +28,7 @@
       <a class="navBarItem" href="#projs">Projects</a>
       <a class="navBarItem" href="#contact">Contact</a>
     </nav>
-    <div class="introDiv">
+    <div class="introDiv fade-in-text">
       <h3>I'm Dani.</h3>
       <h1 class="mainText" id="about">Aspiring Software Engineer</h1>
       <p>I am a London based student delving into the world of tech.</p>
@@ -49,11 +50,12 @@
       <div id = "infoSection" style="display: none">
       <section>
         <p>
-          I was born in Romania and moved to London as a child and lived my
-          childhood here I was always a fan of video games, so that incentivised
-          me to use the computer a lot; and in Year 9, I was intrigued by the
-          idea of coding and wanted to try it myself. So I took Computer Science
-          for GCSE and stuck to it, because I enjoyed it and it was fun.
+          My name is Dani. I am currently a student studying Computer Science at Queen Mary University of London. Based in London, alongside my parents and brother.
+          I aspire to eventually become a Software Engineer through my great communication with developers and teammates. Provided by my experience in building web applications with other junior developers.
+          I am also interested in become a web developer, whether that be front end, back end or fullstack.
+          <br>
+          <br>
+          Beyond my online life, I enjoy playing football (soccer for all the Americans), and enjoy hiking. Alongside a passion of cars, video games and music.
         </p>
         <br>
         <p class="langs">
@@ -67,11 +69,10 @@
             <li>React</li>
             <li>SQL</li>
           </ul>
-          
         </p>
       </section>
-      <br>
     </div>
+    <br>
     <h1 class="projectH1" id="projs">Projects I have done</h1>
     <br>
     <div class="card">
@@ -83,6 +84,7 @@
       <a href="https://github.com/d-arde/petFriends">Github</a>
       <img src="" alt="">
     </div>
+      <br>
       <br>
     <div class="card">
       <h1>Discord.js Solana TPS Tracker</h1>
@@ -104,6 +106,7 @@
       <a href="https://discord.com/oauth2/authorize?client_id=976035158866145280&scope=bot&permissions=335544320">Bot Link</a>
     </div>
     <br>
+    <br>
     <div class="card">
       <h1>placeholder</h1>
       <p>lorem ipsuim
@@ -112,6 +115,7 @@
       <a href="">Github</a>
       <img src="" alt="">
     </div>
+    <br>
     <div class="contacts" id="contact">
       <h1>Contact</h1>
       <a href="http://github.com/d-arde"><img src="img/git.png" alt="" style="width: 4%; margin-left: 1em;"></a>
